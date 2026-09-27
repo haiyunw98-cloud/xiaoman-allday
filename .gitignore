@@ -1,0 +1,9 @@
+.DS_Store
+*.apk
+*.aab
+*.keystore
+*.jks
+.env*
+*.db
+*.m4a
+*.wav
