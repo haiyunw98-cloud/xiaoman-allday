@@ -4,7 +4,15 @@
 
 **开启记录，让小满按你关心的方向挑重点。一天结束，自动写成 AI 日记，放进你的日历。**
 
-[下载安卓 APK](https://github.com/haiyunw98-cloud/xiaoman-allday/releases/tag/v0.1.1-public) · [使用说明](#三步开始) · [问题反馈](https://github.com/haiyunw98-cloud/xiaoman-allday/issues/new/choose)
+[下载安卓 APK](https://github.com/haiyunw98-cloud/xiaoman-allday/releases/tag/v0.1.2-public) · [新版界面](UI.md) · [使用说明](#三步开始) · [问题反馈](https://github.com/haiyunw98-cloud/xiaoman-allday/issues/new/choose)
+
+## 清爽首页，设置归位
+
+首页只看记录、重点和日记。API、关注领域、提醒、定时停止与外观，都在右上角齿轮里。
+
+<p><img src="assets/ui-v0.1.2/01-home-light.png" alt="奶白薄荷首页" width="46%"> <img src="assets/ui-v0.1.2/08-home-navy.png" alt="深蓝夜色首页" width="46%"></p>
+
+新版真实 Android 控件的测试渲染图，非手机实拍；展示首次使用状态，无私人记录或虚构业务数据。[查看全部界面](UI.md)
 
 ## 小满帮你记什么
 
@@ -19,8 +27,8 @@
 ## 三步开始
 
 1. **安装 APK**：支持 Android 13 及以上、ARM64 手机。公开体验版与开发者私人版分开安装，不含任何人的历史记录。
-2. **设置你的重点和 API**：身份与关注领域默认留空，由你填写。选择平台，填写自己的 Key，测试连接后保存。
-3. **点开始记录**：允许麦克风和通知权限；需要日记进入日历时，再允许日历权限。录音由你开启，也可以随时暂停。
+2. **点右上角齿轮**：在「关注重点与使用习惯」填写自己的身份和关注领域；在「云端 API」选择平台，填写自己的 Key，测试连接后保存。默认均不含私人配置。
+3. **点开始记录**：允许麦克风和通知权限；需要日记进入日历时，在设置中点「AI 日记加入日历」授权。录音由你开启，也可以随时暂停。
 
 ## API 自己选
 
@@ -38,8 +46,8 @@ API Key 默认空白；切换平台或修改地址会清空输入框中的旧 Ke
 
 ## 当前版本
 
-**v0.1.1-public · 公开体验版**。APK 约 273 MB，已包含中文转写模型，无需另装大语言模型。首次转写会准备本地模型文件，请预留至少 1 GB 安装与处理空间。
+**v0.1.2-public · 公开体验版**。APK 约 272 MB，已包含中文转写模型，无需另装大语言模型。首次转写会准备本地模型文件，请预留至少 1 GB 安装与处理空间。
 
-已通过 195 项单元测试、签名和打包检查；这个公开构建尚未完成真机全流程验收，各 API 平台仍需使用者在手机上测试连接。下载、校验值和更新说明见 [Release](https://github.com/haiyunw98-cloud/xiaoman-allday/releases/tag/v0.1.1-public)。
+已通过 211 项测试（含 Android 控件渲染与设置导航）、签名和打包检查；这个公开构建尚未完成真机全流程验收，各 API 平台仍需使用者在手机上测试连接。下载、校验值和更新说明见 [Release](https://github.com/haiyunw98-cloud/xiaoman-allday/releases/tag/v0.1.2-public)。
 
 本仓库提供产品介绍、安装包和反馈入口，不包含 App 源码。封面为品牌插画，非实机界面。模型与组件出处见 [第三方说明](THIRD_PARTY_NOTICES.md)。
